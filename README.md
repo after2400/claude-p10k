@@ -12,7 +12,7 @@ user@hostname  .../Projects/repo  main  |  Sonnet 4.6  ████████�
 
 ## Requirements
 
-- Python 3.6+
+- Python 3.7+
 - Claude Code with status line support
 
 ## Installation
