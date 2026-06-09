@@ -1,0 +1,25 @@
+[tool.semantic_release]
+version_variables = ["statusline.py:__version__"]
+branch = "main"
+upload_to_pypi = false
+build_command = ""
+
+[tool.semantic_release.remote]
+type = "github"
+
+[tool.semantic_release.commit_parser_options]
+minor_tags = ["feat"]
+patch_tags = ["fix", "perf", "refactor"]
+
+[tool.semantic_release.changelog]
+exclude_commit_patterns = [
+  "^style",
+  "^chore",
+]
+
+[tool.ruff]
+target-version = "py37"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
