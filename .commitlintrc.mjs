@@ -7,9 +7,9 @@ export default {
       "always",
       [
         "statusline", // statusline.py changes
-        "ci",         // GitHub Actions workflows
-        "docs",       // README and documentation
-        "config",     // commitlint, ruff, pre-commit config
+        "ci", // GitHub Actions workflows
+        "docs", // README and documentation
+        "config", // commitlint, ruff, pre-commit config
       ],
     ],
     "scope-empty": [0, "never"], // scope is optional
