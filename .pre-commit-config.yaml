@@ -16,7 +16,7 @@ repos:
         name: prettier
         language: system
         entry: prettier --write --ignore-unknown
-        types_or: [markdown, yaml, json]
+        types_or: [markdown, yaml, json, javascript]
         stages: [pre-commit]
 
       - id: commitlint
